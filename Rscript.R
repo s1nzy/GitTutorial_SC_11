@@ -16,7 +16,7 @@
 # Figure description: miles per gallon by horse power per number of cylinders:
 # ---
 
-  xyplot(mpg ~ hp | factor(paste('cyl:',cyl)),
+  xyplot(mpg ~ hp),
          data = mtcars,
          col = "magenta")
 
