@@ -18,6 +18,6 @@
 
   xyplot(mpg ~ hp | factor(paste('cyl:',cyl)),
          data = mtcars,
-         col = "orange")
+         col = "magenta")
 
 # --- end-of-script --- 
